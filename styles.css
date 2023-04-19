@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgb(89, 100, 134);
+  background-color: rgb(120, 135, 180);
 }
 
 nav {
@@ -49,7 +49,7 @@ h1 {
 
 .title {
   width: 100px;
-  height: 10px;
+  height: 40px;
 }
 
 .formulario {
@@ -60,4 +60,12 @@ h1 {
 .portada {
   display: flex;
   justify-content: center;
+}
+
+.foot {
+  height: 50px;
+}
+
+footer {
+  background-color: #000;
 }
