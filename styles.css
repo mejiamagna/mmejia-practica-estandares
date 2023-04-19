@@ -47,8 +47,8 @@ h1 {
 
 /*Nav para la imagen titulo*/
 
-
 .titulo {
   max-width: 100%;
-  height: auto; /* ajusta la altura automáticamente para mantener la relación de aspecto */
+
+  height: 20%; /* ajusta la altura automáticamente para mantener la relación de aspecto */
 }
