@@ -46,10 +46,7 @@ h1 {
 }
 
 /*Nav para la imagen titulo*/
-.title {
-  width: 80%; /* ajusta el ancho del contenedor según tus necesidades */
-  margin: 0 auto; /* centra el contenedor horizontalmente */
-}
+
 
 .titulo {
   max-width: 100%;
