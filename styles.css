@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(89, 100, 134);
 }
 
 nav {
@@ -48,6 +48,16 @@ h1 {
 /*Nav para la imagen titulo*/
 
 .title {
-  width: 100%;
-  height: 20%;
+  width: 100px;
+  height: 10px;
+}
+
+.formulario {
+  width: 100px;
+  height: 100px;
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
 }
