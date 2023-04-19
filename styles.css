@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgb(120, 135, 180);
+  background-color: rgb(145, 167, 231);
 }
 
 nav {
@@ -73,6 +73,7 @@ h1 {
 
 footer {
   background-color: #000;
+  color: white;
 }
 
 .wrapper {
@@ -120,18 +121,26 @@ footer {
   transform-origin: 50% 50%;
   transition: all 0.2s;
 }
-.social-link .social-svg:hover .social-group__icon, .social-link .social-svg:active .social-group__icon, .social-link .social-svg:focus .social-group__icon {
-  fill: #FFFBFA;
+.social-link .social-svg:hover .social-group__icon,
+.social-link .social-svg:active .social-group__icon,
+.social-link .social-svg:focus .social-group__icon {
+  fill: #fffbfa;
   transition: all 0.45s;
 }
-.social-link .social-svg:hover .social-group__inner-circle, .social-link .social-svg:active .social-group__inner-circle, .social-link .social-svg:focus .social-group__inner-circle {
+.social-link .social-svg:hover .social-group__inner-circle,
+.social-link .social-svg:active .social-group__inner-circle,
+.social-link .social-svg:focus .social-group__inner-circle {
   fill: currentColor;
   transition: all 0.45s;
 }
-.social-link .social-svg:hover .social-group__inner-circle--instagram, .social-link .social-svg:active .social-group__inner-circle--instagram, .social-link .social-svg:focus .social-group__inner-circle--instagram {
+.social-link .social-svg:hover .social-group__inner-circle--instagram,
+.social-link .social-svg:active .social-group__inner-circle--instagram,
+.social-link .social-svg:focus .social-group__inner-circle--instagram {
   fill: url(#simpleInsta) !important;
 }
-.social-link .social-svg:hover .social-group__outline, .social-link .social-svg:active .social-group__outline, .social-link .social-svg:focus .social-group__outline {
+.social-link .social-svg:hover .social-group__outline,
+.social-link .social-svg:active .social-group__outline,
+.social-link .social-svg:focus .social-group__outline {
   stroke: currentColor;
   transform: scale(1.1);
   transition: all 0.45s;
