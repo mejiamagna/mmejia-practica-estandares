@@ -8,9 +8,11 @@ submitBtn.addEventListener('click', (event) => {
 
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
+  const mensajeInput = document.getElementById('mensaje');
 
   const name = nameInput.value;
   const email = emailInput.value;
+  const mensaje = mensajeInput.value;
 
   if (!isValidName(name)) {
     alert('Ingresa un nombre válido');
@@ -29,6 +31,7 @@ submitBtn.addEventListener('click', (event) => {
 
 console.log(`Nombre: ${name}`);
 console.log(`Correo electrónico: ${email}`);
+console.log('Mensaje: ${mensaje}');
 
 function isValidName(name) {
   const nameRegex = /^[a-zA-Z ]+$/; // Solo letras y espacios de la A a la Z (mayúsculas y minúsculas)
