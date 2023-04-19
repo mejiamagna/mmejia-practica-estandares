@@ -49,7 +49,7 @@ h1 {
 
 .title {
   width: 100%;
-  height: 20%;
+  height: 150px;
 }
 
 /*.formulario {
@@ -67,9 +67,9 @@ h1 {
   justify-content: center;
 }
 
-.foot {
+/*.foot {
   height: 30%;
-}
+}*/
 
 footer {
   background-color: #000;
