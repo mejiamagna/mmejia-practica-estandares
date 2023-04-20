@@ -8,9 +8,74 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="./">INICIO</a>
-      <a href="/ciencia.html" aria-current="page">CIENCIA</a>
+    <nav class="menu">
+      <section class="menu__container">
+        <h1 class="menu__logo">MENÚ</h1>
+
+        <ul class="menu__links">
+          <li class="menu__item">
+            <a href="index.html" class="menu__link">INICIO</a>
+          </li>
+
+          <li class="menu__item menu__item--show">
+            <a href="#" class="menu__link"
+              >A CERCA DE <img src="assets/arrow.svg" class="menu__arrow"
+            /></a>
+
+            <ul class="menu__nesting">
+              <li class="menu__inside">
+                <a href="ciencia.html" class="menu__link menu__link--inside"
+                  >CIENCIA</a
+                >
+              </li>
+              <li class="menu__inside">
+                <a href="agua.html" class="menu__link menu__link--inside"
+                  >EL AGUA</a
+                >
+              </li>
+              <li class="menu__inside">
+                <a href="especies.html" class="menu__link menu__link--inside"
+                  >ESPECIES AMENAZADAS</a
+                >
+              </li>
+              <li class="menu__video">
+                <a href="video.html" class="menu__link menu__link--inside"
+                  >VIDEO</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu__item menu__item--show">
+            <a href="#" class="menu__link"
+              >ESTILOS Y ANIMACIONES
+              <img src="assets/arrow.svg" class="menu__arrow"
+            /></a>
+
+            <ul class="menu__nesting">
+              <li class="menu__inside">
+                <a href="#" class="menu__link menu__link--inside"
+                  >Color de fondo</a
+                >
+              </li>
+              <li class="menu__inside">
+                <a href="#" class="menu__link menu__link--inside">Fuente</a>
+              </li>
+              <li class="menu__inside">
+                <a href="#" class="menu__link menu__link--inside">Animación</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu__item">
+            <a href="#" class="menu__link">SUGERENCIAS</a>
+          </li>
+        </ul>
+
+        <div class="menu__hamburguer">
+          <img src="assets/menu.svg" class="menu__img" />
+        </div>
+      </section>
     </nav>
     <main>
       <h1>EL CAMBIO CLIMÁTICO</h1>

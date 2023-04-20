@@ -8,16 +8,116 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="./">INICIO</a>
-      <a href="/ciencia.html" aria-current="page">CIENCIA</a>
+    <nav class="menu">
+      <section class="menu__container">
+        <h1 class="menu__logo">MENÚ</h1>
+
+        <ul class="menu__links">
+          <li class="menu__item">
+            <a href="index.html" class="menu__link">INICIO</a>
+          </li>
+
+          <li class="menu__item menu__item--show">
+            <a href="#" class="menu__link"
+              >A CERCA DE <img src="assets/arrow.svg" class="menu__arrow"
+            /></a>
+
+            <ul class="menu__nesting">
+              <li class="menu__inside">
+                <a href="ciencia.html" class="menu__link menu__link--inside"
+                  >CIENCIA</a
+                >
+              </li>
+              <li class="menu__inside">
+                <a href="agua.html" class="menu__link menu__link--inside"
+                  >EL AGUA</a
+                >
+              </li>
+              <li class="menu__inside">
+                <a href="especies.html" class="menu__link menu__link--inside"
+                  >ESPECIES AMENAZADAS</a
+                >
+              </li>
+              <li class="menu__video">
+                <a href="video.html" class="menu__link menu__link--inside"
+                  >VIDEO</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu__item menu__item--show">
+            <a href="#" class="menu__link"
+              >ESTILOS Y ANIMACIONES
+              <img src="assets/arrow.svg" class="menu__arrow"
+            /></a>
+
+            <ul class="menu__nesting">
+              <li class="menu__inside">
+                <a href="#" class="menu__link menu__link--inside"
+                  >Color de fondo</a
+                >
+              </li>
+              <li class="menu__inside">
+                <a href="#" class="menu__link menu__link--inside">Fuente</a>
+              </li>
+              <li class="menu__inside">
+                <a href="#" class="menu__link menu__link--inside">Animación</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu__item">
+            <a href="#" class="menu__link">SUGERENCIAS</a>
+          </li>
+        </ul>
+
+        <div class="menu__hamburguer">
+          <img src="assets/menu.svg" class="menu__img" />
+        </div>
+      </section>
     </nav>
     <main>
       <h1>El agua: en el centro de la crisis climatica</h1>
       <img
-      src="https://images.ecestaticos.com/d77wVwuJJaYImcz_CdnoHFH3YFU=/134x34:2003x1413/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F564%2F7e7%2F03f%2F5647e703f3d8a62e1da1098bf3d16fde.jpg""
-      alt="cambio_climatico" />
-      <p></p>
+        src="https://images.ecestaticos.com/d77wVwuJJaYImcz_CdnoHFH3YFU=/134x34:2003x1413/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F564%2F7e7%2F03f%2F5647e703f3d8a62e1da1098bf3d16fde.jpg"
+        alt="cambio_climatico"
+        class="img-agua"
+      />
+      <p>
+        El agua y el cambio climático están estrechamente relacionados. El cambio climático afecta al agua presente en el planeta de formas complejas. Desde patrones de precipitación impredecibles hasta la reducción de las capas de hielo, pasando por el aumento del nivel del mar, inundaciones y sequías: la mayor parte de los impactos del cambio climático se reducen al agua (ONU-Agua).
+
+        El cambio climático está acelerando tanto la escasez de agua como los peligros relacionados con este recurso (como inundaciones y sequías), ya que el aumento de las temperaturas altera los patrones de precipitación y todo el ciclo del agua. (UNICEF).
+
+        A continuación, puede obtener más información sobre el clima y el agua.
+      </p>
+      <h3>Escasez de agua</h3>
+      <ul>
+        <li>
+          El cambio climático ha provocado que los fenómenos meteorológicos extremos, como las inundaciones y las sequías, sean cada vez más probables y más intensos (IPCC).
+        </li>
+        <li>
+          El aumento de las temperaturas a nivel mundial eleva la humedad que la atmósfera puede contener, lo que da como resultado más tormentas y lluvias torrenciales pero, paradójicamente, también períodos de sequía más intensos a medida que se evapora más agua de la tierra y cambian los patrones climáticos globales.
+        </li>
+        <li>
+          Se prevé que los riesgos de sequía e inundación, así como los daños sociales asociados, aumenten aún más con cada grado de calentamiento global.
+        </li>
+        <li>
+          Es muy probable que las precipitaciones torrenciales aumenten en la mayoría de las zonas geográficas durante el siglo XXI, con más inundaciones provocadas por la lluvia. Al mismo tiempo, también se prevé que aumenten las zonas geográficas terrestres con mayor sequía extrema en un momento dado.
+        </li>
+      </ul>
+      <h3>Soluciones relacionadas con el agua</h3>
+      <ul>
+        <li>
+          Los ecosistemas acuáticos saludables y una mejor gestión del agua pueden ayudar a reducir las emisiones de gases de efecto invernadero y brindar protección contra los peligros climáticos.
+        </li>
+        <li>
+          Los humedales, así como los manglares, las praderas submarinas, las marismas y los pantanos son sumideros de carbono altamente efectivos que absorben y almacenan CO2, lo que contribuye a reducir las emisiones de gases de efecto invernadero.
+        </li>
+        <li>
+          La agricultura climáticamente inteligente que recurre al riego por goteo y otros medios para usar el agua de manera más eficiente puede ayudar a reducir la demanda de suministros de agua dulce.
+        </li>
+      </ul>
     </main>
   </body>
 </html>
