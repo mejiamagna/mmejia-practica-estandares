@@ -1,4 +1,6 @@
-.img-agua {
-  width: 40%;
-  height: 40%;
+
+.agua {
+  width: 100%; /* Ancho del div */
+  margin: 0 auto; /* Centrar horizontalmente */
+  text-align: center; /* Centrar contenido horizontalmente */
 }
