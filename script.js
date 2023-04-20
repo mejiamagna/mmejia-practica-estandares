@@ -10,6 +10,11 @@ fnt.addEventListener('click', () => {
   document.querySelector('link[href="styles.css"]').href = 'styles3.css';
 })
 
+const nevada = document.getElementById('animacion');
+nevada.addEventListener('click', () => {
+  document.querySelector('link[href="styles.css"]').href = 'estiloNevando.css';
+})
+
 //Validación de los campos ingresados
 const form = document.querySelector('form');
 const submitBtn = document.getElementById('enviar');
