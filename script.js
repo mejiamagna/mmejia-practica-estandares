@@ -1,9 +1,14 @@
 console.log('Hello!');
-const botonEstilo2 = document.getElementById('estilo2');
 
-botonEstilo2.addEventListener('click', () => {
+const fnd = document.getElementById('fondo');
+fnd.addEventListener('click', () => {
   document.querySelector('link[href="styles.css"]').href = 'styles2.css';
-});
+})
+
+const fnt = document.getElementById('fuente');
+fnt.addEventListener('click', () => {
+  document.querySelector('link[href="styles.css"]').href = 'styles3.css';
+})
 
 //Validación de los campos ingresados
 const form = document.querySelector('form');
